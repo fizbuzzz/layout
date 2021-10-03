@@ -1,0 +1,139 @@
+.providers {
+    margin-top: 120px;
+    padding-bottom: 115px;
+    position: relative;
+
+    &__container {
+        display: flex;
+        min-height: 477px;
+        align-items: center;
+    }
+
+    &::after {
+        content: '';
+        background-image: url(../img/providers/background.png);
+        background-repeat: no-repeat;
+        width: 650px;
+        position: absolute;
+        height: 100%;
+        top: 0%;
+        left: 0;
+    }
+
+    &__title {
+        max-width: 450px;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        z-index: 5;
+
+        h3 {
+            line-height: 56px / 36px * 100%;
+            position: relative;
+        }
+
+        h3::after {
+            content: '';
+            position: absolute;
+            width: 56px;
+            height: 2px;
+            background: #000000;
+            border-radius: 10px;
+            left: 0;
+            bottom: -26px;
+        }
+
+        span {
+            line-height: 30px / 18px * 100%;
+        }
+    }
+
+    &__title>*:nth-child(2) {
+        padding: 59px 0 37px;
+    }
+
+
+    a {
+        position: relative;
+        overflow: hidden;
+        transition: .5s;
+        min-height: 56px;
+        min-width: 201px;
+        span:nth-child(1) {
+            --n: 1;
+        }
+
+        span:nth-child(2) {
+            --n: 2;
+        }
+
+        span:nth-child(3) {
+            --n: 3;
+        }
+
+        span:nth-child(4) {
+            --n: 4;
+        }
+
+        span {
+            position: absolute;
+            width: 25%;
+            height: 100%;
+            background-color: #458FF6;
+            transform: translateY(150%);
+            border-radius: 50%;
+            left: calc((var(--n) - 1) * 25%);
+            transition: 0.5s;
+            transition-delay: calc((var(--n) - 1) * 0.1s);
+            z-index: -1;
+            overflow: hidden;
+        }
+
+
+
+    }
+
+    a:hover span {
+        transform: translateY(0) scale(2);
+    }
+
+    a:hover {
+        color: #fff;
+        transition: .5s;
+    }
+
+}
+
+
+@media screen and (max-width: 1120px) {
+    .providers::after {
+        left: -15%;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .providers::after {
+        opacity: .3;
+    }
+
+
+
+@media screen and (max-width: 480px) {
+
+    .providers::after {
+        opacity: .1;
+    }
+
+}
+    
+    .providers {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+   
+
+}

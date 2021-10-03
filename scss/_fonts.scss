@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish/Bold/Mulish-Bold.eot');
+  src: url('../fonts/Mulish/Bold/Mulish-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Mulish/Bold/Mulish-Bold.svg#Mulish-Bold') format('svg'),
+       url('../fonts/Mulish/Bold/Mulish-Bold.ttf') format('truetype'),
+       url('../fonts/Mulish/Bold/Mulish-Bold.woff') format('woff'),
+       url('../fonts/Mulish/Bold/Mulish-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+
+
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish/Light/Mulish-Light.eot');
+  src: url('../fonts/Mulish/Light/Mulish-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Mulish/Light/Mulish-Light.svg#Mulish-Light') format('svg'),
+       url('../fonts/Mulish/Light/Mulish-Light.ttf') format('truetype'),
+       url('../fonts/Mulish/Light/Mulish-Light.woff') format('woff'),
+       url('../fonts/Mulish/Light/Mulish-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish/Regular/Mulish-Regular.eot');
+  src: url('../fonts/Mulish/Regular/Mulish-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Mulish/Regular/Mulish-Regular.svg#Mulish-Regular') format('svg'),
+       url('../fonts/Mulish/Regular/Mulish-Regular.ttf') format('truetype'),
+       url('../fonts/Mulish/Regular/Mulish-Regular.woff') format('woff'),
+       url('../fonts/Mulish/Regular/Mulish-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../fonts/Mulish/SemiBold/Mulish-SemiBold.eot');
+  src: url('../fonts/Mulish/SemiBold/Mulish-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Mulish/SemiBold/Mulish-SemiBold.svg#Mulish-SemiBold') format('svg'),
+       url('../fonts/Mulish/SemiBold/Mulish-SemiBold.ttf') format('truetype'),
+       url('../fonts/Mulish/SemiBold/Mulish-SemiBold.woff') format('woff'),
+       url('../fonts/Mulish/SemiBold/Mulish-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+
+  
+  @mixin mb {
+    font-family: 'Mulish' , 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 700;
+  }
+
+
+  @mixin ml {
+    font-family: 'Mulish' , 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 300;
+  }
+  
+  
+  @mixin mr {
+    font-family: 'Mulish' , 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 300;
+  }
+
+
+  @mixin msb {
+    font-family: 'Mulish' , 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 600;
+  }
+  
