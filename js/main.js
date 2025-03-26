@@ -8,6 +8,3 @@ burgerMenu.addEventListener('click' , function() {
 });
 
 
-$(document).ready(function(){
-    $('.customer__slider').slick();
-});
